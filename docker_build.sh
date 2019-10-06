@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo docker build -t debian_buster:elixir .
+sudo docker build --no-cache -t debian_buster:elixir .
